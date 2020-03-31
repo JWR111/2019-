@@ -6,7 +6,8 @@
 #### 以下連結有該資料的所有變數
 [variable](https://github.com/Jiang-Wan-Rong/2019-/blob/master/variable/layout.pdf)
 ## 資料處理
-#### 先把資料變數分為連續型變數和類別型變數
+#### 移除顧客id變數:CUS_ID $/Rightarrow$ 剩130個自變數
+#### 資料變數分為連續型變數和類別型變數
 
 - 類別型變數:共有95個(不包含預測變數y)
 - 連續型變數:共有35個
