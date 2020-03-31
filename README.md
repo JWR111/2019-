@@ -9,7 +9,9 @@
 | CUS_ID | CUS_ID(流水編號) |GENDER| 性別  |AGE| 年齡(年)(級距) |
 |CHARGE_CITY_CD|收費地址_縣市|CONTACT_CITY_CD |聯絡地址_縣市 |EDUCATION_CD |教育程度/學歷 |
 |MARRIAGE_CD |婚姻狀況 |LAST_A_CCONTACT_DT | 近三年是否有與 A 通路接觸 |L1YR_A_ISSUE_CNT|近一年透過 A 通路投保新契約次數|
-
+|LAST_A_ISSUE_DT |近三年是否有透過 A 通路投保新契約 |L1YR_B_ISSUE_CNT |近一年透過 B 通路投保新契約次數 |LAST_B_ISSUE_DT |近三年是否有透過 B 通路投保新契約 |
+|CHANNEL_A_POL_CNT|透過 A 通路投保新契約件數 |CHANNEL_B_POL_CNT |透過 B 通路投保新契約件數 |OCCUPATION_CLASS_CD |客戶職業類別(各類別)對核保風險程度 |
+|APC_CNT |對應的要保人數 |INSD_CNT |對應的被保人數 |APC_1ST_AGE|首次擔任要保人年齡(級距) |
 
 
 ## 資料處理
