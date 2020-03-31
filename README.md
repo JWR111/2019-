@@ -31,3 +31,4 @@
 - 無序型類別型變數:共有95個(不包含預測變數y)
 #### 處理缺失值資料
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/%E6%95%B8%E5%80%BC%E5%9E%8B%E8%AE%8A%E6%95%B8%E7%BC%BA%E5%A4%B1%E5%80%BC%E6%AF%94%E4%BE%8B%20(1).png)
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/%E9%A1%9E%E5%88%A5%E5%9E%8B%E8%AE%8A%E6%95%B8%E7%BC%BA%E5%A4%B1%E5%80%BC%E6%AF%94%E4%BE%8B%20(1).png)
