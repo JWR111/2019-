@@ -42,7 +42,8 @@
 
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/LAST_C_DT.png)
 
-- 無序類別型變數缺失值則是將其缺失值看成一個類別,之後無序類別型變數轉換為獨熱變數放入模型 \\
+- 無序類別型變數缺失值則是將其缺失值看成一個類別,之後無序類別型變數轉換為獨熱變數放入模型  
+
 ex: GENDER有"M","F",nan
 
 |GENDER|GENDER_M|GENDER_F|
