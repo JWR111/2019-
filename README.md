@@ -43,4 +43,13 @@
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/LAST_C_DT.png)
 
 - 無序類別型變數缺失值則是將其缺失值看成一個類別,之後無序類別型變數轉換為獨熱變數放入模型
+ex: GENDER有"M","F",nan
+|GENDER|GENDER_M|GENDER_F|
+| :---------: | :----------: | :--------: |
+|"M"|1|0|
+|"F"|0|1|
+|NAN|0|0|
+
+- 其餘連續型變數考慮使用模型插補方法進行補值
+
 - 由於連續型變數仍有一個變數ANNUAL_PREMIUM_AMT缺失值比例占62%,因此考慮先使用隨機森林模型,看看有無加此變數的預測結果哪個較好
