@@ -58,7 +58,13 @@ ex: GENDER有"M","F",nan
 1. 有加ANNUAL_PREMIUM_AMT變數AUC值預測結果:0.828,0.825,0.848,0.829,0.819(平均值=0.8298)
 2. 沒有加ANNUAL_PREMIUM_AMT變數AUC值預測結果:0.832,0.841,0.812,0.835,0.809(平均值=0.8258)
 #### 處理離群值資料
--  
+- 以下為連續型變數機率密度函數圖形
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/continuous_dis1.png)
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/continuous_dis2.png)
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/continuous_dis3.png)
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/continuous_dis4.png)
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/continuous_dis5.png)
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/continuous_dis6.png)
 
 
 
