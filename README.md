@@ -69,7 +69,9 @@ ex: GENDER有"M","F",nan
 - 可以考慮將TERMINATION_RATE變數進行最小最大化,使用隨機森林模型,並使用交叉驗證的方式,設定cross validation=5,看看將此變數處理後的預測結果如何
 
 - 以下為有序變數條狀圖
-
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/countplot1.png)
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/countplot2.png)
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/countplot3.png)
 
 
 
