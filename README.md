@@ -76,6 +76,41 @@ ex: GENDER有"M","F",nan
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/countplot3.png)
 - 由以上圖可以看出,該資料有序變數沒有特別的離群直需要處理
 #### 連續型變數去除偏態
+- 下表為各連續變數使用boxcox轉換的lambda值
+
+|變數 | lambda值|
+| :---------: | :------------: |
+| APC_1ST_YEARDIF | 0.378482419110952|
+|ANNUAL_PREMIUM_AMT|-0.059536819195880844|
+|ANNUAL_INCOME_AMT|0.02692525345157817|
+|BANK_NUMBER_CNT|-0.18253485858618648|
+|INSD_LAST_YEARDIF_CNT|0.41685392292251033|
+|BMI|1.1467552023824785|
+|TERMINATION_RATE|0.044490680864457954|
+|DIEBENEFIT_AMT|0.15988135758261424|
+|DIEACCIDENT_AMT|0.19950664410414565|
+|POLICY_VALUE_AMT|-1.274765234793289|
+|ANNUITY_AMT|-0.42285279303840734|
+|EXPIRATION_AMT|-1.0647654687161665|
+|ACCIDENT_HOSPITAL_REC_AMT|0.10612761029908345|
+|DISEASES_HOSPITAL_REC_AMT|0.08214062345407268|
+|OUTPATIENT_SURGERY_AMT|0.038809506285160146|
+|INPATIENT_SURGERY_AMT|0.04271070756237458|
+|PAY_LIMIT_MED_MISC_AMT|-0.2648965620223151|
+|FIRST_CANCER_AMT|-0.06214522132382144|
+|ILL_ACCELERATION_AMT|-0.858088715747552|
+|ILL_ADDITIONAL_AMT|-1.201443474567141|
+|LONG_TERM_CARE_AMT|-2.679534382938886|
+|MONTHLY_CARE_AMT|-0.29032936659653924|
+|LIFE_INSD_CNT|0.3346882185303625|
+|L1YR_GROSS_PRE_AMT|-0.42220082027945505|
+- 以下為連續變數使用boxcox轉換後,機率密度函數圖型
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/boxcox1.png)
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/boxcox2.png)
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/boxcox3.png)
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/boxcox4.png)
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/boxcox5.png)
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/boxcox6.png)
 #### 連續型變數離散化
 #### 類別型變數編碼
 ## 變數篩選
