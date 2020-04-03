@@ -65,13 +65,12 @@ ex: GENDER有"M","F",nan
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/continuous_dis4.png)
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/continuous_dis5.png)
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/continuous_dis6.png)
-- 由以上圖可以看出,該資料沒有特別的離群直需要處理
+- 由以上圖可以看出,該資料連續型變數沒有特別的離群直需要處理
 - 可以考慮將TERMINATION_RATE變數進行最小最大化,使用隨機森林模型,並使用交叉驗證的方式,設定cross validation=5,看看將此變數處理後的預測結果如何
 
 - 以下為有序變數條狀圖
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/countplot1.png)
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/countplot2.png)
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/countplot3.png)
-
-
+- 由以上圖可以看出,該資料有序變數沒有特別的離群直需要處理
 
