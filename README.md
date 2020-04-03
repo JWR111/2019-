@@ -65,7 +65,8 @@ ex: GENDER有"M","F",nan
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/continuous_dis4.png)
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/continuous_dis5.png)
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/continuous_dis6.png)
-
+- 由以上圖可以看出,該資料沒有特別的離群直需要處理
+#### 
 
 
 
