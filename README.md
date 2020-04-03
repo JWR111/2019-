@@ -73,4 +73,13 @@ ex: GENDER有"M","F",nan
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/countplot2.png)
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/countplot3.png)
 - 由以上圖可以看出,該資料有序變數沒有特別的離群直需要處理
-
+#### 連續型變數去除偏態
+#### 連續型變數離散化
+#### 類別型變數編碼
+## 變數篩選
+#### 特徵重要性
+#### 特徵組合
+## 機器學習模型
+#### xgboost
+#### catboost
+#### ensemble 
