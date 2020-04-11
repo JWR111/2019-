@@ -109,7 +109,7 @@ ex: GENDER有"M","F",nan
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/boxcox6.png)
 
 - 以下考慮利用xgboost模型預測結果判斷是否將連續變數使用boxcox轉換,由以下結果得知,將連續變數使用boxcox轉換後效果較好
-- boxcox轉換前,xgboost模型預測結果AUC值:0.894767;轉換後,預測結果AUC值:0.903540
+- boxcox轉換前,xgboost模型預測結果AUC值:0.894767;轉換後,預測結果AUC值:0.834826
 - 若模型為樹模型則不需要對變數進行最小最大化
 - 若模型為knn,svm,logistic regression之類的模型則可以考慮將變數進行最小最大化,之後依照選擇的模型後,再討論是否將連續型變數進行最小最大化測試
 #### 連續型變數離散化
