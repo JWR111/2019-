@@ -111,8 +111,12 @@ ex: GENDER有"M","F",nan
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/boxcox4.png)
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/boxcox5.png)
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/boxcox6.png)
-- boxcox轉換後,隨機森林模型預測結果AUC值:0.826,0.843,0.827,0.830,0.820(平均值為0.8292)
+
+- 以下考慮利用xgboost模型預測結果判斷是否將連續變數使用boxcox轉換,由以下結果得知,將連續變數使用boxcox轉換後效果較好
+- boxcox轉換前,xgboost模型預測結果AUC值:0.894767;轉換後,預測結果AUC值:0.903540
 #### 連續型變數離散化
+- 可考慮將某些連續型變數離散化,可減少一些outlier的影響,離散化方法須參考boxcox轉換後,連續型變數分布情況,再做判斷
+- 
 #### 類別型變數編碼
 ## 變數篩選
 #### 特徵重要性
