@@ -139,6 +139,10 @@ ex: GENDER有"M","F",nan
 轉換後xgboost模型預測結果平均AUC值:0.836583
 #### 類別型變數編碼
 - 均值編碼
+1. 'L1YR_A_ISSUE_CNT', 'L1YR_B_ISSUE_CNT', 'CHANNEL_A_POL_CNT', 'CHANNEL_B_POL_CNT', 'APC_CNT', 'INSD_CNT', 'AG_CNT', 'AG_NOW_CNT',
+'CLC_CUR_NUM', 'L1YR_C_CNT', 'IM_CNT', 'TOOL_VISIT_1YEAR_CNT'等12個變數改採均值編碼表示  
+xgboost模型預測結果平均AUC值:0.839016
+
 - 計數編碼:類別的目標均值與類別筆數呈正相關(或負相關),也可以將筆數本身當作特徵
 ## 變數篩選
 #### 特徵相關係數
