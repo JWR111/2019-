@@ -142,8 +142,15 @@ ex: GENDER有"M","F",nan
 1. 'L1YR_A_ISSUE_CNT', 'L1YR_B_ISSUE_CNT', 'CHANNEL_A_POL_CNT', 'CHANNEL_B_POL_CNT', 'APC_CNT', 'INSD_CNT', 'AG_CNT', 'AG_NOW_CNT',
 'CLC_CUR_NUM', 'L1YR_C_CNT', 'IM_CNT', 'TOOL_VISIT_1YEAR_CNT'等12個變數改採均值編碼表示  
 xgboost模型預測結果平均AUC值:0.839016
+2. 12個變數均值編碼後,'GENDER','AGE','CHARGE_CITY_CD','CONTACT_CITY_CD','EDUCATION_CD','MARRIAGE_CD'等6個變數也改採均值編碼表示  
+xgboost模型預測結果平均AUC值:0.838606
+3. 12個變數均值編碼後,'LAST_A_CCONTACT_DT', 'LAST_A_ISSUE_DT', 'LAST_B_ISSUE_DT', 'OCCUPATION_CLASS_CD', 'APC_1ST_AGE', 'INSD_1ST_AGE'等6個變數也改採均值編碼表示  
+xgboost模型預測結果平均AUC值:0.843443
+4. 18個變數均值編碼後,'IF_2ND_GEN_IND', 'RFM_R', 'REBUY_TIMES_CNT', 'LEVEL', 'RFM_M_LEVEL', 'LIFE_CNT'等6個變數也改採均值編碼表示  
+xgboost模型預測結果平均AUC值:0.841817
 
 - 計數編碼:類別的目標均值與類別筆數呈正相關(或負相關),也可以將筆數本身當作特徵
+1. 'MARRIAGE_CD'
 ## 變數篩選
 #### 特徵相關係數
 #### 特徵重要性
