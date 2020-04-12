@@ -148,6 +148,7 @@ xgboost模型預測結果平均AUC值:0.838606
 xgboost模型預測結果平均AUC值:0.843443
 4. 18個變數均值編碼後,'IF_2ND_GEN_IND', 'RFM_R', 'REBUY_TIMES_CNT', 'LEVEL', 'RFM_M_LEVEL', 'LIFE_CNT'等6個變數也改採均值編碼表示  
 xgboost模型預測結果平均AUC值:0.841817
+5. 18個變數均值編碼後,'IF_ISSUE_A_IND', 'IF_ISSUE_B_IND', 'IF_ISSUE_C_IND', 'IF_ISSUE_D_IND', 'IF_ISSUE_E_IND', 'IF_ISSUE_F_IND', 'IF_ISSUE_G_IND', 'IF_ISSUE_H_IND', 'IF_ISSUE_I_IND', 'IF_ISSUE_J_IND', 'IF_ISSUE_K_IND', 'IF_ISSUE_L_IND', 'IF_ISSUE_M_IND', 'IF_ISSUE_N_IND', 'IF_ISSUE_O_IND', 'IF_ISSUE_P_IND', 'IF_ISSUE_Q_IND'等17個變數也改採均值編碼表示
 
 - 計數編碼:類別的目標均值與類別筆數呈正相關(或負相關),也可以將筆數本身當作特徵
 1. 'MARRIAGE_CD'
