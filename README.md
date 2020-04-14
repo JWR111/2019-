@@ -212,7 +212,9 @@ xgboost模型預測結果平均AUC值:0.844514
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/importance3.png)
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/importance4.png)
 - 有36個變數特徵重要性為0,刪除36個變數後xgboost模型預測結果平均AUC值:0.843244
-
+- 刪除前5小的變數("IF_ISSUE_INSD_O_IND_N","IF_ISSUE_INSD_L_IND_N","LAST_B_ISSUE_DT","FINANCETOOLS_F_Y","X_A_IND_Y"),刪除後xgboost模型預測結果平均AUC值:0.843930
+- 再刪除前5小的變數("CHARGE_CITY_CD_C1","X_F_IND_Y","IF_ISSUE_K_IND","IF_ISSUE_INSD_L_IND_Y","CHARGE_CITY_CD_D"),刪除後xgboost模型預測結果平均AUC值:0.843000,選擇僅刪除前3個變數xgboost模型預測結果平均AUC值:0.844725,選擇僅刪除前4個變數xgboost模型預測結果平均AUC值:0.842314
+- 最後共刪除44個變數
 #### 特徵組合
 ## 機器學習模型
 #### xgboost
