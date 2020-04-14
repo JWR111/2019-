@@ -216,6 +216,13 @@ xgboost模型預測結果平均AUC值:0.844514
 - 再刪除前5小的變數("CHARGE_CITY_CD_C1","X_F_IND_Y","IF_ISSUE_K_IND","IF_ISSUE_INSD_L_IND_Y","CHARGE_CITY_CD_D"),刪除後xgboost模型預測結果平均AUC值:0.843000,選擇僅刪除前3個變數xgboost模型預測結果平均AUC值:0.844725,選擇僅刪除前4個變數xgboost模型預測結果平均AUC值:0.842314
 - 最後共刪除44個變數
 #### 特徵組合或特徵修改
+- 以下6個變數有序化後xgboost模型預測結果平均AUC值:0.846638
+AGE
+RFM_R:缺失值可能為沒有擔任要保人身分過,補5
+REBUY_TIMES_CNT:可能沒有再購,補0
+LEVEL:缺失值量與RFM_R同,補0
+RFM_M_LEVEL:可能為沒有投保主約過,補0
+LIFE_CNT
 
 ## 機器學習模型
 #### xgboost
