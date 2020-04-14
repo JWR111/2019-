@@ -205,6 +205,7 @@ xgboost模型預測結果平均AUC值:0.844514
 
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/corr1.png)
 
+-'CHANNEL_A_POL_CNT','CLC_CUR_NUM','DIEBENEFIT_AMT','ACCIDENT_HOSPITAL_REC_AMT', 'DISEASES_HOSPITAL_REC_AMT', 'OUTPATIENT_SURGERY_AMT'
 #### 特徵重要性
 #### 特徵組合
 ## 機器學習模型
