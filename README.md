@@ -165,7 +165,7 @@ xgboost模型預測結果平均AUC值:0.844785
 xgboost模型預測結果平均AUC值:0.844608
 12. 'FINANCETOOLS_A', 'FINANCETOOLS_B', 'FINANCETOOLS_C', 'FINANCETOOLS_D', 'FINANCETOOLS_E', 'FINANCETOOLS_F', 'FINANCETOOLS_G'等6個變數也改採均值編碼表示  
 xgboost模型預測結果平均AUC值:0.843681
-- 計數編碼:類別的目標均值與類別筆數呈正相關(或負相關),也可以將筆數本身當作特徵
+- 計數編碼:類別的目標均值與類別筆數呈正相關(或負相關),也可以將筆數本身當作特徵,由以下圖判斷試了幾個變數後效果不佳,因此,最後不考慮使用計數編碼
 
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/count1.png)
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/count2.png)
@@ -199,6 +199,7 @@ xgboost模型預測結果平均AUC值:0.843681
 xgboost模型預測結果平均AUC值:0.845110
 2. 'GENDER','LAST_A_CCONTACT_DT','LAST_A_ISSUE_DT','LAST_B_ISSUE_DT','IF_2ND_GEN_IND'
 xgboost模型預測結果平均AUC值:0.844514
+
 ## 變數篩選
 #### 特徵相關係數
 #### 特徵重要性
