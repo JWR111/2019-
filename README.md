@@ -173,6 +173,10 @@ xgboost模型預測結果平均AUC值:0.843681
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/count4.png)
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/count5.png)
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/count6.png)
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/count7.png)
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/count8.png)
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/count9.png)
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/count10.png)
 1. 'MARRIAGE_CD'
 ## 變數篩選
 #### 特徵相關係數
