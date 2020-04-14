@@ -206,6 +206,10 @@ xgboost模型預測結果平均AUC值:0.844514
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/corr1.png)
 
 #### 特徵重要性
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/importance1.png)
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/importance2.png)
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/importance3.png)
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/importance4.png)
 #### 特徵組合
 ## 機器學習模型
 #### xgboost
