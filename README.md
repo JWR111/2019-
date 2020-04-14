@@ -150,7 +150,7 @@ xgboost模型預測結果平均AUC值:0.843443
 4. 18個變數均值編碼後,'IF_2ND_GEN_IND', 'RFM_R', 'REBUY_TIMES_CNT', 'LEVEL', 'RFM_M_LEVEL', 'LIFE_CNT'等6個變數也改採均值編碼表示  
 xgboost模型預測結果平均AUC值:0.841817
 5. 18個變數均值編碼後,'IF_ISSUE_A_IND', 'IF_ISSUE_B_IND', 'IF_ISSUE_C_IND', 'IF_ISSUE_D_IND', 'IF_ISSUE_E_IND', 'IF_ISSUE_F_IND', 'IF_ISSUE_G_IND', 'IF_ISSUE_H_IND', 'IF_ISSUE_I_IND', 'IF_ISSUE_J_IND', 'IF_ISSUE_K_IND', 'IF_ISSUE_L_IND', 'IF_ISSUE_M_IND', 'IF_ISSUE_N_IND', 'IF_ISSUE_O_IND', 'IF_ISSUE_P_IND', 'IF_ISSUE_Q_IND'等17個變數也改採均值編碼表示
-xgboost模型預測結果平均AUC值:0.845530
+xgboost模型預測結果平均AUC值:0.845530(0.844322)
 6. 35個變數均值編碼後,'IF_ADD_F_IND', 'IF_ADD_L_IND', 'IF_ADD_Q_IND', 'IF_ADD_G_IND', 'IF_ADD_R_IND', 'IF_ADD_IND'等6個變數也改採均值編碼表示  
 xgboost模型預測結果平均AUC值:0.845459
 7. 35個變數均值編碼後'L1YR_PAYMENT_REMINDER_IND', 'L1YR_LAPSE_IND', 'LAST_B_CONTACT_DT', 'A_IND', 'B_IND', 'C_IND'等6個變數也改採均值編碼表示  
@@ -205,9 +205,6 @@ xgboost模型預測結果平均AUC值:0.844514
 
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/corr1.png)
 
--'CHANNEL_A_POL_CNT':0.843169
-- 'CLC_CUR_NUM':0.843298
-'DIEBENEFIT_AMT','ACCIDENT_HOSPITAL_REC_AMT', 'DISEASES_HOSPITAL_REC_AMT', 'OUTPATIENT_SURGERY_AMT'
 #### 特徵重要性
 #### 特徵組合
 ## 機器學習模型
