@@ -202,6 +202,9 @@ xgboost模型預測結果平均AUC值:0.844514
 
 ## 變數篩選
 #### 特徵相關係數
+
+![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/corr1.png)
+
 #### 特徵重要性
 #### 特徵組合
 ## 機器學習模型
