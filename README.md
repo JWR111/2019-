@@ -197,6 +197,8 @@ xgboost模型預測結果平均AUC值:0.843681
 
 1. 'MARRIAGE_CD',"IM_CNT","LIFE_CNT"改使用計數編碼
 xgboost模型預測結果平均AUC值:0.845110
+2. 'GENDER','LAST_A_CCONTACT_DT','LAST_A_ISSUE_DT','LAST_B_ISSUE_DT','IF_2ND_GEN_IND'
+xgboost模型預測結果平均AUC值:0.844514
 ## 變數篩選
 #### 特徵相關係數
 #### 特徵重要性
