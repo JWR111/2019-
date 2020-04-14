@@ -195,7 +195,7 @@ xgboost模型預測結果平均AUC值:0.843681
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/count26.png)
 ![image](https://github.com/Jiang-Wan-Rong/2019-/blob/master/EDA/count27.png)
 
-1. 'MARRIAGE_CD',"IM_CNT","LIFE_CNT"改使用均值編碼
+1. 'MARRIAGE_CD',"IM_CNT","LIFE_CNT"改使用計數編碼
 ## 變數篩選
 #### 特徵相關係數
 #### 特徵重要性
