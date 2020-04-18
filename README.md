@@ -254,6 +254,12 @@ early_stopping_rounds=10早停次數,nfold=5
 |0.05|5|1|1|1|1|173|0.8433308|
 |0.1|5|1|1|1|1|110|0.8422898|
 
+|eta|max_depth|colsample_bytree|min_child_weight|subsample|scale_pos_weight|best_rounds|auc_mean|
+| ----- | ------ |
+|0.04|5|1|1|1|1|202|0.8418980|
+|0.05|5|1|1|1|1|201|0.8437788|
+|0.06|5|1|1|1|1|157|0.8434896|
+
 ## 競賽結果
 - catboost
 1. 未處理缺失值,使用python中catboost套件對缺失值處理方法預測結果
