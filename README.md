@@ -246,3 +246,6 @@ early_stopping_rounds=10早停次數,nfold=5
 #### catboost
 
 #### ensemble 
+- 使用ensemble method中的stacking使用多個模型預測
+1. 包含模型:xgboost,catboost,lightbm,random forest, logistic,naive bayes 
+2. 不放入KNN與SVM模型原因:需計算各個資料的距離,所需花費的時間成本較高
